@@ -127,7 +127,7 @@ namespace JellyfinJav.Providers.JavtrailersrProvider
                     select new PersonInfo
                     {
                         Name = NormalizeActressName(actress),
-                        Type = PersonType.Actor,
+                        Role = PersonType.Actor,
                     }).ToList();
         }
     }
